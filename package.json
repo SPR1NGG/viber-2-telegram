@@ -1,0 +1,23 @@
+{
+  "name": "vibertotelegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"ngrok": "ngrok http 4040",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "node-telegram-bot-api": "^0.59.0",
+    "viber-bot": "^1.0.18",
+    "vk-io": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
